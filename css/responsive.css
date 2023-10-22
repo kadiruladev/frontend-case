@@ -1,0 +1,51 @@
+@media only screen and (max-width: 720px){
+  .slider__text {
+    font-size: 3rem;
+  }
+  .slider__label{
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 1024px){
+    html {
+      font-size: 50%; /*1 rem = 8px, 8/16 = 50% */
+    }
+    .header__wrapper{
+      position: relative;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .header__menu{
+      display: none;
+    }
+    
+    .mobile-menu,
+    .mobile-icon{
+      display: block;
+    }
+
+    .slider__item{
+      background-size: cover;
+      background-position: center;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .mobile-menu{
+    width: 50rem;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+ .header__wrapper{
+  padding: 2rem 4rem;
+ }
+}
+
+@media only screen and (max-width: 1366px) {
+  html {
+    font-size: 56.25%; /*1 rem = 9px, 9/16 = 50% */
+  }
+}
